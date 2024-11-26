@@ -1,0 +1,34 @@
+1. STRUCTURED QUERY LANGUAGE (SQL)
+
+2. CHAR
+   VARCHAR
+   FLOAT
+   TEXT
+   BOOLEAN
+
+   i. Char =  It has fixed length of character it can take. For example, CHAR(5) will store a string of exactly 5 characters.
+
+  ii. Varchar = It can take variable length of characters. For example, VARCHAR(5) will store a string of maximum 5 characters.
+
+  iii. Float = It stores floating point number.
+
+  iv. Boolean = It stores true or false value.
+
+3. Aggregate Functions: These are the functions which perform a calculation on a set of values and return a single value. For example, SUM, COUNT, AVG, MIN, MAX.
+
+SUM= It returns the sum of all values in a column.
+COUNT= It returns the number of rows in a table.
+AVG= It returns the average of all values in a column.
+
+4. Categories of SQL commands: DDL, DML, DCL, TCL.
+
+DDL= Data Definition Language. It is used to define the structure of the database. For example, CREATE, ALTER, DROP, TRUNCATE.
+
+DML= Data Manipulation Language. It is used to manipulate the data in the database. For example, INSERT, UPDATE, DELETE, SELECT. 
+
+DCL= Data Control Language. It is used to control the access to the database. For example, GRANT, REVOKE.
+
+TCL= Transaction Control Language. It is used to control the transactions in the database. For example, COMMIT, ROLLBACK.
+
+
+

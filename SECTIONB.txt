@@ -1,0 +1,17 @@
+1.  Query to change black to african in a table called "students" in a database called "employees" in a column named "ethnicity" :
+UPDATE employees, SET ethnicity = 'African' WHERE ethnicity = 'Black';
+
+2.  Query to delete employees in a table called "employees" in a database called "employees" :
+DELETE * FROM employees WHERE employees_id = E02002, E02005, E02006, E02007;
+
+3. SELECT * FROM employees WHERE Gender = 'Female' AND Ethnicity = 'Asian'; ORDER BY Full_Name DESC ;
+
+4. UPDATE employees, SET Job_Title = 'Sr. Manager' WHERE Job_Title = 'Analyst II' AND Department = 'Marketing';
+
+5. DELETE * FROM employees WHERE Age > 60 ;
+
+6. SELECT * FROM employees WHERE Department = 'IT', 'Marketing', 'Engineering' ORDER BY Full_Name ASC  ;
+
+7. SELECT Full_Name, Annual_Salary FROM employees WHERE Annual_Salary > 70000 AND Full_Name NOT IN ('Kai Lee', 'Ezra Vu', 'Jade Hu') ;
+
+8. SELECT 'Hello, My name is |' +|| Full_Name + ' I am a Director in the |' +|| Department + ' department, my Business_Unit is |' +|| Business_Unit + ' and I am |' +|| Age + ' years old' FROM employees WHERE employees_id = E02003, E02006 BY ORDER ASC;
